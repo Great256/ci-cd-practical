@@ -4,7 +4,7 @@ const PORT = 3000;
 
 const requestListener = (req, res) => {
   res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Hello CI/CD Automation! 🚀");
+  res.end("Hello from dev-feature branch! 🌱");
 };
 
 const server = http.createServer(requestListener);
