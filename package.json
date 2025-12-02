@@ -1,0 +1,22 @@
+{
+  "name": "ci-cd-practical",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "node test.js",
+  "build": "echo Building app...",
+  "start": "node index.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Great256/ci-cd-practical.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Great256/ci-cd-practical/issues"
+  },
+  "homepage": "https://github.com/Great256/ci-cd-practical#readme"
+}
