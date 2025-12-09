@@ -25,3 +25,10 @@ jobs:
 
       - name: Build the project
         run: npm run build
+
+  deploy:
+    needs: build_and_test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Render
+        run: echo "Deploy step placeholder for exam submission"
